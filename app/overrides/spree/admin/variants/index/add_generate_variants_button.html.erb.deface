@@ -1,0 +1,6 @@
+<!-- insert_after "div#new_variant" -->
+<% if !@product.empty_option_values? %>
+  <% content_for :page_actions do %>
+    <%= button_link_to(Spree.t(:generate_variants), spree.generate_for_option_types_admin_product_variants_url(@product), { :icon => 'add', :class => 'btn-success', id: 'generate_vars_link', method: :post }) if can? :create, Spree::Variant %>
+  <% end %>
+<% end %>
