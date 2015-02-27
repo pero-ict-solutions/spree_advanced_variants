@@ -9,7 +9,7 @@ Spree::Admin::VariantsController.class_eval do
     product.option_values_hash = option_values_hash
     product.send(:build_variants_from_option_values_hash)
     product.save!
-    redirect_to collection_url, :notice => "generated all the variants"
+    redirect_to collection_url, :notice => Spree.t(:generated_all_variants)
   end
 
 end

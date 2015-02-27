@@ -31,11 +31,12 @@ describe "Generate variants" do
     end
 
     it "will render the 'generate variants' button" do
-      expect(page).to have_content "Generate Variants"
+      expect(page).to have_content Spree.t(:generate_variants)
     end
 
     it "will generate the variants based on all the options" do
       click_button "Generate Variants"
+      expect(page).to have_content Spree.t(:generated_all_variants)
       expect(page).to have_content option_value.option_type.presentation
       expect(page).to have_content option_value.presentation
     end

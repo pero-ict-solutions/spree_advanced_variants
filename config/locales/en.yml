@@ -1,3 +1,4 @@
 en:
   spree:
     generate_variants: Generate Variants
+    generated_all_variants: Generated all variants
