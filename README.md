@@ -7,6 +7,11 @@
 [![Test Coverage](https://codeclimate.com/github/pero-ict-solutions/spree_advanced_variants/badges/coverage.svg)](https://codeclimate.com/github/pero-ict-solutions/spree_advanced_variants)
 
 
+## Functionality
+
+* generate all the variants based on the assigned option types
+
+
 ## Installation
 
 Add spree_advanced_variants to your Gemfile:
