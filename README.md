@@ -2,6 +2,10 @@
 
 [![wercker status](https://app.wercker.com/status/27692e20a7cf1bf50937d3e1654e89a7/m "wercker status")](https://app.wercker.com/project/bykey/27692e20a7cf1bf50937d3e1654e89a7)
 
+[![Code Climate](https://codeclimate.com/github/pero-ict-solutions/spree_advanced_variants/badges/gpa.svg)](https://codeclimate.com/github/pero-ict-solutions/spree_advanced_variants)
+
+[![Test Coverage](https://codeclimate.com/github/pero-ict-solutions/spree_advanced_variants/badges/coverage.svg)](https://codeclimate.com/github/pero-ict-solutions/spree_advanced_variants)
+
 
 ## Installation
 
