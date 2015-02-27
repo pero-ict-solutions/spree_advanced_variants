@@ -1,5 +1,7 @@
 #Spree Advanced Variants
 
+[![wercker status](https://app.wercker.com/status/27692e20a7cf1bf50937d3e1654e89a7/m "wercker status")](https://app.wercker.com/project/bykey/27692e20a7cf1bf50937d3e1654e89a7)
+
 
 ## Installation
 
